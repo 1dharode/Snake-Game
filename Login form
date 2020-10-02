@@ -1,0 +1,67 @@
+<!DOCTYTPE html>
+<html>
+<head><center><b><i><h1 style="font-family:forte regular;";>LOGIN</h1></i></b></center>
+<title>LOG IN
+</title>
+		<style>
+			body{
+	background-image:url("https://static.photocdn.pt/images/articles/2019/02/07/Simple_Landscape_Photography_Tips_With_Tons_of_Impact.jpg");
+	background-repeat:no repeat;
+	background-size:cover;
+	padding: 50px;
+}
+form{
+	margin: 70px;
+	padding:10px;
+	width:250px;
+	height:180px;
+	opacity: 0.3;
+		background-color:white; 
+		opacity:0.7;
+		border-radius: 10px;
+
+	}
+	input,label{
+		border-width:5px;
+		border-radius: 10px;
+		border-left-color:grey;
+		border-top-color: grey;
+		padding:3px;
+		margin: 3px;													
+		font-family:forte regular;
+
+	}
+	button{
+		height: 38;
+		border-width:04;
+		border-height:70;
+		border-radius:10px;
+		border-left-color:grey;
+		border-top-color: grey;
+		border-color: grey;
+		font-family:forte regular;
+	}
+	button:hover{opacity:0.9;
+	background-color:lightblue;
+}
+	.c{font-family:forte regular;
+		color:black;}
+	.d{font-family:forte regular;
+		color:black;}
+		</style>
+
+</head>
+<body>
+	<center>
+<form><i>
+		<label class="c">User name</label><br>
+		<input type="text" placeholder="name of participant" required><br><br>
+		<label class="d">Password</label><br>
+		<input type="password" placeholder="password" required>
+		<center><button type="submit"value="submit">login</button></i></center>
+	</form>
+	</center>
+</body>
+</html>                               
+
+
